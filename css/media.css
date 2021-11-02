@@ -1,0 +1,233 @@
+@media (max-width: 1039px) {
+  .optimization {
+    padding: 90px 0;
+  }
+  .finish .finish_wrapper {
+    margin-top: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .finish .finish_wrapper .finish_item {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 980px) {
+  .waiting .waiting_wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+      "item1 item2"
+      "item3 item3";
+    grid-row-gap: 30px;
+  }
+  .waiting .waiting_wrapper .waiting_item {
+    width: 300px;
+    height: fit-content;
+    margin: 0 auto;
+  }
+  .waiting .waiting_wrapper .waiting_item:nth-child(1) {
+    grid-area: item1;
+  }
+  .waiting .waiting_wrapper .waiting_item:nth-child(2) {
+    grid-area: item2;
+  }
+  .waiting .waiting_wrapper .waiting_item:nth-child(3) {
+    grid-area: item3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .waiting .waiting_wrapper .waiting_item .waiting_img,
+  .waiting .waiting_wrapper .waiting_item .waiting_descr {
+    width: 300px;
+  }
+}
+
+@media (max-width: 896px) {
+  .optimization .optimization_text .bold {
+    margin-left: 0;
+    margin: 20px;
+  }
+  .optimization {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 779px) {
+  .optimization .optimization_text p:nth-child(3) {
+    margin: 20px;
+  }
+  .finish {
+    padding: 60px 0;
+  }
+  .finish .finish_divider {
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 667px) {
+  .title-big {
+    font-size: 70px;
+  }
+  .optimization {
+    padding-top: 80px;
+  }
+  .optimization .optimization_img {
+    top: 1px;
+  }
+  .gift .gift_text {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .waiting .waiting_wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "item1"
+      "item2"
+      "item3";
+    height: fit-content;
+  }
+  .waiting .waiting_wrapper .waiting_item:nth-child(1),
+  .waiting .waiting_wrapper .waiting_item:nth-child(2) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .optimization .optimization_header {
+    font-size: 25px;
+    padding-top: 48px;
+  }
+  .optimization .optimization_header,
+  .optimization .optimization_text p {
+    margin-left: 340px;
+  }
+  .optimization .optimization_img {
+    top: -66px;
+  }
+  .optimization .optimization_text {
+    margin-top: 330px;
+  }
+  .optimization .optimization_text p {
+    margin-left: 20px;
+  }
+  .optimization .optimization_text p:nth-child(3) {
+    margin-top: 0px;
+  }
+  .gift {
+    padding: 60px 0;
+  }
+  .gift .gift_img {
+    width: 120px;
+  }
+  .first_web {
+    padding: 60px 0;
+  }
+  .first_web .first_text {
+    font-size: 26px;
+  }
+  .first_web .first_date {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 603px) {
+}
+
+@media (max-width: 585px) {
+  .optimization .optimization_text {
+    margin-top: 287px;
+  }
+  .optimization .optimization_header {
+    margin-left: 312px;
+  }
+  .optimization {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 535px) {
+  .optimization {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .optimization .optimization_img {
+    left: 0;
+    height: auto;
+    width: 419px;
+    top: 0;
+  }
+  .optimization .optimization_header {
+    margin-left: 267px;
+  }
+  .optimization .optimization_text {
+    margin-top: 95px;
+  }
+  .first_web .first_img {
+    width: 290px;
+  }
+  .footer {
+    padding: 60px 0;
+  }
+  .footer .info_links {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .info_links .footer-link-divider {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .simple .title_big {
+    font-size: 68px;
+  }
+  .title {
+    margin-top: 40px;
+  }
+  .promo .promo_btn {
+    width: 280px;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .optimization .optimization_header {
+    padding-top: 264px;
+    margin-left: 20px;
+  }
+  .optimization .optimization_text {
+    margin-top: 20px;
+  }
+  .gift .gift_btn {
+    width: 270px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 420px) {
+  .title {
+    font-size: 32px;
+  }
+  .title-big {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 370px) {
+  .title-big {
+    font-size: 60px;
+  }
+  .simple .title_big {
+    font-size: 60px;
+  }
+}
